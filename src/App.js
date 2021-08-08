@@ -49,7 +49,7 @@ function App() {
         <ul>
           {movieDB[selectedGenre].map((movie) => (
             <li key={movie.name} >
-              <a href={movie.link} target="_blank">
+              <a href={movie.link} target="_blank" rel="noreferrer">
                 <div className="movie-name"> {movie.name} </div>
                 <div className="movie-rating"> ⭐ {movie.rating} </div>
               </a>
