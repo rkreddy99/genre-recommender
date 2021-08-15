@@ -63,6 +63,11 @@ ul {
 .movie-name {
   margin: 5px;
   font-size: larger;
+  text-decoration: underline;
+}
+
+.movie-name:hover {
+  color: blue;
 }
 
 a {
@@ -70,6 +75,8 @@ a {
   color: aliceblue;
 }
 
-a:hover {
-  color: aqua;
+.movie-description {
+  margin: 5px;
+  font-size: 0.9rem;
+  font-weight: 200;
 }
